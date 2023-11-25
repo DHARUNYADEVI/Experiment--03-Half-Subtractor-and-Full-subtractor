@@ -26,29 +26,41 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
+1.Use module projname(input,output) to start the Verilog programmming.
 
+2.Assign inputs and outputs using the word input and output respectively.
 
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
 
-Write the detailed procedure here 
+4.Use each output to represnt onre for differnce and the other for borrow.
 
-
+5.End the verilog program using keyword endmodule.
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Dharunyadevi.S
+RegisterNumber: 23013594 
+```
+module EX04HSDE(output b,d,input x,y);
+assign d=x^y;
+assign b=~x&y;
+endmodule
+
+module EX04FSDE(output d,b,input x,y,z);
+assign d=x^y^z;
+assign b=~x&(y^z)|y&z;
+endmodule
+```
 */
 
-## Output:
-
-## Truthtable
-
-
-
 ##  RTL realization
-
+![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/276d43be-b7a5-45c7-a95d-2fbf62db6f6b)
+![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/32eae718-6a0f-4e1c-b868-64a74bf1e3de)
 
 ## Timing diagram 
-
+![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/5cc944dc-8bb0-4c75-a142-d2e80586c237)
+![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/62426e69-ac8c-4f7b-ae2b-6a95a8e4a0e0)
+## Truthtable:
+![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/0622ce5d-e130-475f-8a74-60e77223f6d4)
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
