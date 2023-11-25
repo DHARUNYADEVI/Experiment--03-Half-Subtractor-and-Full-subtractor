@@ -49,6 +49,8 @@ endmodule
 ## Timing diagram 
 ![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/5cc944dc-8bb0-4c75-a142-d2e80586c237)
 ![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/62426e69-ac8c-4f7b-ae2b-6a95a8e4a0e0)
+
+
 ## Truthtable:
 ![image](https://github.com/DHARUNYADEVI/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147473847/0622ce5d-e130-475f-8a74-60e77223f6d4)
 ## Result:
